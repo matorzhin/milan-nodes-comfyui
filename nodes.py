@@ -285,7 +285,7 @@ class LoadImagesExtended(BaseImageLoader):
         return (
             data['image'],
             data['filename'],
-            input_dir,  # Добавлена директория
+            input_dir, 
             data['title'],
             data['description']
         )
@@ -300,13 +300,13 @@ class LoadImagesExtended(BaseImageLoader):
         return True
 
 NODE_CLASS_MAPPINGS = {
-    "LoadImageExtended": LoadImageExtended,
+    "LoadOneImageExtended": LoadImageExtended,
     "LoadMultipleImagesExtended": LoadImagesExtended
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Load One Image with Name, Title and Description": "LoadImageExtended",
-    "Load Multiple Images with Name, Directory Title and Description": "LoadMultipleImagesExtended"
+    "LoadOneImageExtended": "Load One Image with Name, Title and Description",
+    "LoadMultipleImagesExtended":  "Load Multiple Images with Name, Directory Title and Description"
 }
 
 # by milan. Milan M.
