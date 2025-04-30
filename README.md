@@ -1,8 +1,12 @@
-1. Load Image with Name, Title, Description
+
+**1. Load Image with Name, Title, Description**
+
    Работает как стандарный нод Load Image с превью картинки а еще возвращает название файла, заголовок и описание
 
 
-2. Load Multiple Images with Name, Directory, Title, Description
+
+**2. Load Multiple Images with Name, Directory, Title, Description**
+
    Последовательно загружает изображения из указанной папки (количество вводим справа от кнопки  ▶️ Queue). Возвращает изображение, название, расположение, заголовок и описание для каждого файла 
 
-Подробнее: https://t.me/milandsgn/194
+*Подробнее:* https://t.me/milandsgn/194
