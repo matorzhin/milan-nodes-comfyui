@@ -305,8 +305,8 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "LoadOneImageExtended": "Load One Image with Name, Title and Description",
-    "LoadMultipleImagesExtended":  "Load Multiple Images with Name, Directory Title and Description"
+    "LoadOneImageExtended": "Load One Image with Name, Title, Description",
+    "LoadMultipleImagesExtended":  "Load Multiple Images with Name, Directory, Title, Description"
 }
 
 # by milan. Milan M.
