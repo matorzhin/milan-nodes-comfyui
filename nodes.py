@@ -18,7 +18,7 @@ DATABASE = os.path.join(os.path.dirname(__file__), "database.json")
 
 class Database:
     """
-    This class is currently based on DATABASE class from WAN-node-suite. All credits go to the author <3
+    This class is currently based on DATABASE class from WAS-node-suite. All credits go to the author <3
     """
 
     def __init__(self, filepath):
