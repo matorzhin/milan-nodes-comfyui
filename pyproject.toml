@@ -9,6 +9,6 @@ Repository = "https://github.com/matorzhin/milan-nodes-comfyui"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "matorzhin"
 DisplayName = "milan-nodes-comfyui"
 Icon = ""
