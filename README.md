@@ -31,12 +31,10 @@ This node sequentially loads images from the specified folder (the quantity is e
 
 *   **Features:**
     *   Images are loaded sequentially with each processing queue run.
-    *   *More details about the batch loading mechanism and quantity control can be found [here](https://t.me/milandsgn/194). (in Russian language)*
+    *   *More details about the batch loading mechanism and quantity control can be found [here](https://t.me/milandsgn/194) (in Russian)*
 
 
 ## Installation
-
-*(You can add installation instructions here, for example:)*
 
 1.  **Via ComfyUI Manager:**
     *   Search for "milan-nodes-comfyui" in ComfyUI Manager and install.
