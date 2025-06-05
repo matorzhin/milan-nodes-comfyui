@@ -1,12 +1,57 @@
+# Milan Nodes for ComfyUI
 
-**1. Load Image with Name, Title, Description**
+This set of custom nodes for ComfyUI enhances image handling capabilities by adding loading with metadata extraction.
 
-   Работает как стандарный нод Load Image с превью картинки а еще возвращает название файла, заголовок и описание
+## Nodes
+
+### 1. Load Image with Name, Title, Description
+
+This node functions similarly to the standard `Load Image` node in ComfyUI, displaying a preview of the loaded image, but additionally provides the following information:
+
+*   **Outputs:**
+    *   `IMAGE`: The loaded image.
+    *   `STRING` (File Name): The filename of the image.
+    *   `STRING` (Title): The title of the image (if available).
+    *   `STRING` (Description): The description of the image (if available).
 
 
+### 2. Load Multiple Images with Name, Directory, Title, Description
 
-**2. Load Multiple Images with Name, Directory, Title, Description**
+This node sequentially loads images from the specified folder (the quantity is entered by the user to the right of the `▶️ Queue` button).
 
-   Последовательно загружает изображения из указанной папки (количество вводим справа от кнопки  ▶️ Queue). Возвращает изображение, название, расположение, заголовок и описание для каждого файла 
+*   **Inputs:**
+    *   `DIRECTORY_PATH`: Path to the folder containing images.
 
-*Подробнее:* https://t.me/milandsgn/194
+*   **Outputs (for each image):**
+    *   `IMAGE`: The currently loaded image.
+    *   `STRING` (File Name): The filename of the current image.
+    *   `STRING` (Directory): The path to the directory from which the image was loaded.
+    *   `STRING` (Title): The title of the current image (if available).
+    *   `STRING` (Description): The description of the current image (if available).
+
+*   **Features:**
+    *   Images are loaded sequentially with each processing queue run.
+    *   *More details about the batch loading mechanism and quantity control can be found [here](https://t.me/milandsgn/194). (in Russian language)*
+
+
+## Installation
+
+*(You can add installation instructions here, for example:)*
+
+1.  **Via ComfyUI Manager:**
+    *   Search for "milan-nodes-comfyui" in ComfyUI Manager and install.
+2.  **Manually:**
+    *   Clone this repository into your `ComfyUI/custom_nodes/` folder:
+    *   Restart ComfyUI.
+
+
+## Feedback and Support
+
+If you have any questions or suggestions, you can contact me [here](https://t.me/milandsgn)
+
+
+## Acknowledgements
+
+Inspired by and grateful to WASasquatch for [was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui).
+
+---
